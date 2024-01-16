@@ -1,0 +1,160 @@
+@media screen and (max-width: 576px) {
+    header, main section {
+        margin-bottom: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    header, main section {
+        padding: 0 20px;
+    }
+
+    header nav {
+        flex-direction: column;
+        padding: 20px 0;
+        gap: 12px;
+    }
+
+    header nav ul li {
+        margin: 0 20px;
+    }
+
+    #banner {
+        margin-top: 25px;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h1,
+    .banner-content p {
+        margin-bottom: 16px;
+    }
+
+    #products h1 {
+        margin-bottom: 24px;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    #services h1 {
+        margin-bottom: 24px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .services-container .services {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .services-container .services  img {
+        width: 80px;
+    }
+
+    .services img {
+        margin-bottom: 12px;
+    }
+    
+    .services h3 {
+        margin-bottom: 8px;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header, main section {
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+
+    header, main section {
+        padding: 0 40px;
+    }
+
+    header nav {
+        flex-direction: column;
+        padding: 30px 0;
+        gap: 16px;
+    }
+
+    header nav ul li {
+        margin: 0 40px;
+    }
+
+    #banner {
+        margin-top: 30px;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h1,
+    .banner-content p {
+        margin-bottom: 18px;
+    }
+
+    #products h1 {
+        margin-bottom: 35px;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    #services h1 {
+        margin-bottom: 35px;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .services-container .services  img {
+        width: 90px;
+    }
+
+    .services img {
+        margin-bottom: 14px;
+    }
+    
+    .services h3 {
+        margin-bottom: 10px;
+    }
+}
